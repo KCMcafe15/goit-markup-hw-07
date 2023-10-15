@@ -1,0 +1,198 @@
+@media screen and (min-width:768px) {
+    .container {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+
+    .header-nav {
+        padding: 24px 0px;
+    } 
+
+    .nav-list-item-link::after {
+        bottom: -15px;
+    }
+
+    .address-list{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding: 16px 0px;
+    }
+
+    .address-item-link {
+        color: var(--slate);
+        font-family: inherit;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.16em;
+        letter-spacing: 0.48px;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .hero{
+        background-image: unset;
+        background: linear-gradient(50deg, rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),  
+                url('../images/hero/hero-tablet-bg.jpg') no-repeat center;
+        background-size: cover;
+        padding: 188px 0;
+    }
+
+    .hero-heading{
+        font-size: 56px;
+        line-height: 1.07em;
+        letter-spacing: 1.12px;
+    }
+
+    .features-list{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        column-gap: 24px;
+        row-gap: 72px;
+    }
+
+    .features-list-item{
+        width: calc((100% - 24px) / 2);
+    }
+
+    .features-icon{
+        display: none;
+    }
+
+    .feature-heading{
+        color: var(--navyblue);
+        font-family: inherit;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11em;
+        letter-spacing: 0.72px;
+        margin: 8px 0px;
+    }
+
+    .services-container h2{
+        display: none;
+    }
+
+    .services-list{
+        display: none;
+    }
+
+    .team{
+        padding: 96px 0;
+    }
+
+    .team-member-list{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        column-gap: 24px;
+        row-gap: 64px;
+        margin-top: 72px;
+    }
+
+    .customers-list-container {
+            width: 552px;
+        }
+
+    .customers-list{
+        display: flex;
+        list-style-type: none;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+        margin-top: 72px;
+    }
+
+    .customers-list-item {
+       padding: 16px 32px; 
+    }
+
+    .icon-client{
+        display: flex;
+        justify-content: center;
+        width: 110px;
+        height: 56px;
+        fill: currentColor;
+        transition: all var(--transition-duration) var(--animation-timing-function);
+    }
+
+    .footer {
+        background-color: var(--navyblue);
+        color: var(--white);
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        height: 456px;
+        width: 100%;
+        padding: 96px 0;
+    }
+
+    .f-container {
+        display: flex;
+        list-style-type: none;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-start;
+        row-gap: 0px;
+        column-gap: 72px;
+        margin: 0 108px;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        gap: 17.5px;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .footer-logo{
+        margin-right: 150px;
+    }
+
+    .footer-social-container{
+        display: flex;
+        flex-direction: column;
+        gap: 17.5px;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: -38px;
+    }
+
+.footer-header{
+        margin-top: 2px;
+        text-align: left;
+    }
+
+.footer-subscribe-container{
+        display: block;
+        flex-direction: row;
+    }
+
+.footer-form{
+    display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 100%;
+        gap: 72px;
+        padding-top: 16px;
+    }
+
+.footer-form-group {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 72px;
+    }
+
+.footer-form input{
+        width: 270px;
+        transition: all var(--transition-duration) var(--o-animation-timing-function);
+    }
+}

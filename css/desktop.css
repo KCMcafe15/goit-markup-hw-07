@@ -1,0 +1,213 @@
+@media screen and (min-width:1158px) {
+    .container {
+        max-width: 1158px;
+        margin: 0 auto;
+    }
+
+    .header-nav {
+        padding: 24px 0px;
+    }
+
+    .nav-list-item-link::after {
+        bottom: -25px;
+    }
+
+    .address-list {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        padding: 24px 0px;
+    }
+
+    .address-item-link {
+        color: var(--slate);
+        font-family: inherit;
+        font-size: 16px;
+        line-height: 1.5em;
+        letter-spacing: 0.32px;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .hero {
+        background-color: var(--navybluemodal);
+        background: linear-gradient(50deg, rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+            url('../images/hero/hero-desktop-bg.jpg') no-repeat center;
+        background-size: cover;
+        padding: 188px 0;
+    }
+
+    .hero-heading {
+        font-size: 56px;
+        line-height: 1.07em;
+        letter-spacing: 1.12px;
+    }
+
+    .features-list {
+        display: inline-flex;
+        justify-content: center;
+        list-style-type: none;
+        gap: 24px;
+    }
+
+    .features-list-item {
+        width: 264px;
+        gap: 8px;
+    }
+
+    .features-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        background: var(--cloud);
+        padding: 24px 100px;
+    }
+
+    .feature-heading {
+        color: var(--navyblue);
+        font-family: inherit;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2em;
+        letter-spacing: 0.4px;
+        margin: 8px 0px;
+    }
+
+    .feature-heading {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2em;
+        letter-spacing: 0.4px;
+        margin: 8px 0px;
+    }
+
+    .services {
+        padding-bottom: 120px;
+    }
+
+    .services-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .services-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        list-style-type: none;
+        gap: 24px;
+        margin-top: 72px;
+    }
+
+    .team {
+        padding: 120px 0;
+    }
+
+    .team-member-list {
+        display: inline-flex;
+        justify-content: center;
+        list-style-type: none;
+        gap: 24px;
+        margin-top: 72px;
+    }
+
+    .customers-list-container {
+        width: 100%;
+    }
+
+    .customers-list {
+        display: flex;
+        list-style-type: none;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+        margin-top: 72px;
+    }
+
+    .customers-list-item {
+        padding: 16px 32px;
+    }
+
+    .icon-client{
+        display: flex;
+        justify-content: center;
+        width: 104px;
+        height: 56px;
+        fill: currentColor;
+        transition: all var(--transition-duration) var(--animation-timing-function);
+    }
+    
+    .footer{
+        background-color: var(--navyblue);
+        color: var(--white);
+        display: flex;
+        justify-content: flex-start;
+        height: 312px;
+        margin: 0 auto;
+        padding: 96px 0;
+    }
+
+    .f-container {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 100px;
+        margin: 0;
+    }
+
+.footer-container {
+        display: flex;
+        flex-direction: column;
+        gap: 17.5px;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+.footer-logo {
+        margin-right: 150px;
+    }
+
+.footer-social-container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-top: -38px;
+        gap: 16px;
+    }
+
+.footer-header {
+   text-align: left;
+    }
+
+.footer-subscribe-container {
+        display: block;
+        margin-top: -38px;
+        gap: 16px;
+    }
+
+.footer-form {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 100%;
+        gap: 24px;
+    }
+
+.footer-form-group {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 0px;
+    }
+
+.footer-form input {
+        width: 264px;
+        transition: all var(--transition-duration) var(--o-animation-timing-function);
+    }
+}
